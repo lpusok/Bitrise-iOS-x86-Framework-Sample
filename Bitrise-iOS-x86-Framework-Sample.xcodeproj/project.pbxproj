@@ -17,9 +17,6 @@
 		4BCDC02829E543B2001D5E0C /* Bitrise_iOS_x86_Framework_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCDC02729E543B2001D5E0C /* Bitrise_iOS_x86_Framework_SampleTests.swift */; };
 		4BCDC03229E543B2001D5E0C /* Bitrise_iOS_x86_Framework_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCDC03129E543B2001D5E0C /* Bitrise_iOS_x86_Framework_SampleUITests.swift */; };
 		4BCDC03429E543B2001D5E0C /* Bitrise_iOS_x86_Framework_SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCDC03329E543B2001D5E0C /* Bitrise_iOS_x86_Framework_SampleUITestsLaunchTests.swift */; };
-		4BCDC04829E546D1001D5E0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BCDC04729E546D1001D5E0C /* GoogleService-Info.plist */; };
-		4BCDC04929E546D1001D5E0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BCDC04729E546D1001D5E0C /* GoogleService-Info.plist */; };
-		4BCDC04A29E546D1001D5E0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BCDC04729E546D1001D5E0C /* GoogleService-Info.plist */; };
 		A379D9C4A10C11335491E6F4 /* Pods_Bitrise_iOS_x86_Framework_Sample_Bitrise_iOS_x86_Framework_SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7ED3BF12BD4FECC4AD801D2 /* Pods_Bitrise_iOS_x86_Framework_Sample_Bitrise_iOS_x86_Framework_SampleUITests.framework */; };
 		E8F4C484E22116AEC303DFBB /* Pods_Bitrise_iOS_x86_Framework_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E936585F9CAF5221EF95221 /* Pods_Bitrise_iOS_x86_Framework_Sample.framework */; };
 /* End PBXBuildFile section */
@@ -59,7 +56,6 @@
 		4BCDC02D29E543B2001D5E0C /* Bitrise-iOS-x86-Framework-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitrise-iOS-x86-Framework-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BCDC03129E543B2001D5E0C /* Bitrise_iOS_x86_Framework_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitrise_iOS_x86_Framework_SampleUITests.swift; sourceTree = "<group>"; };
 		4BCDC03329E543B2001D5E0C /* Bitrise_iOS_x86_Framework_SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitrise_iOS_x86_Framework_SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		4BCDC04729E546D1001D5E0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		78ED0DAF17703155B393B2D1 /* Pods_Bitrise_iOS_x86_Framework_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitrise_iOS_x86_Framework_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD82FA6D694B319EAE9E1AC /* Pods-Bitrise-iOS-x86-Framework-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bitrise-iOS-x86-Framework-Sample.debug.xcconfig"; path = "Target Support Files/Pods-Bitrise-iOS-x86-Framework-Sample/Pods-Bitrise-iOS-x86-Framework-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		8E936585F9CAF5221EF95221 /* Pods_Bitrise_iOS_x86_Framework_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bitrise_iOS_x86_Framework_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +94,6 @@
 		4BCDC00429E543B1001D5E0C = {
 			isa = PBXGroup;
 			children = (
-				4BCDC04729E546D1001D5E0C /* GoogleService-Info.plist */,
 				4BCDC00F29E543B1001D5E0C /* Bitrise-iOS-x86-Framework-Sample */,
 				4BCDC02629E543B2001D5E0C /* Bitrise-iOS-x86-Framework-SampleTests */,
 				4BCDC03029E543B2001D5E0C /* Bitrise-iOS-x86-Framework-SampleUITests */,
@@ -284,7 +279,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BCDC01D29E543B2001D5E0C /* LaunchScreen.storyboard in Resources */,
-				4BCDC04829E546D1001D5E0C /* GoogleService-Info.plist in Resources */,
 				4BCDC01A29E543B2001D5E0C /* Assets.xcassets in Resources */,
 				4BCDC01829E543B1001D5E0C /* Main.storyboard in Resources */,
 			);
@@ -294,7 +288,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BCDC04929E546D1001D5E0C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +295,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BCDC04A29E546D1001D5E0C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
