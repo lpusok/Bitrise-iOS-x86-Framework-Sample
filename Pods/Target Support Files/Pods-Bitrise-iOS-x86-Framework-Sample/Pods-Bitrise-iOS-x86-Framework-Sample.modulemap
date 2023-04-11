@@ -1,0 +1,6 @@
+framework module Pods_Bitrise_iOS_x86_Framework_Sample {
+  umbrella header "Pods-Bitrise-iOS-x86-Framework-Sample-umbrella.h"
+
+  export *
+  module * { export * }
+}
